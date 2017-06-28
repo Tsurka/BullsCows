@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bulls & Cows</title>
+	<link rel="stylesheet" type="text/css" href="design.css"/>
+	<script src="scripting.js"></script>
+	
+	<title>Bulls Cows</title>
+	
+</head>
+<body onload="generate()" style="background-color:#eee">
+
+<center><div class="title_style">Bulls & Cows</div></center>
+<div class="copyright_style">MIRKOVA GAME</div>
+
+<div class="main_style">
+	<form class="form_style">
+		<input class="button_style" type="button" value="+" onclick="button1_plus()">
+		<div class="text_style" id="result1">1</div>
+		<input class="button_style" type="button" value="-" onclick="button1_minus()">
+	</form>
+
+	<form class="form_style">
+		<input class="button_style" type="button" value="+" onclick="button2_plus()">
+		<div class="text_style" id="result2">2</div>
+		<input class="button_style" type="button" value="-" onclick="button2_minus()">
+	</form>
+
+	<form class="form_style">
+		<input class="button_style" type="button" value="+" onclick="button3_plus()">
+		<div class="text_style" id="result3">3</div>
+		<input class="button_style" type="button" value="-" onclick="button3_minus()">
+	</form>
+
+	<form class="form_style">
+		<input class="button_style" type="button" value="+" onclick="button4_plus()">
+		<div class="text_style" id="result4">4</div>
+		<input class="button_style" type="button" value="-" onclick="button4_minus()">
+	</form>
+	<input class="go_style" type="button" value="GO" onclick="go()">
+	<div class="sheet_style" id="sheet">Start guessing!</div>
+</div>
+
+</body>
+</html>
